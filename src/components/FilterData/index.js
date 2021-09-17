@@ -30,7 +30,7 @@ const FilterData = props => {
             <div className="imageAndMessage">
               <p className="user">{eachData.message}</p>
               <img
-                src="http://assets.stickpng.com/images/585e4bcdcb11b227491c3396.png"
+                src="https://res.cloudinary.com/dnvq6te1w/image/upload/v1631864755/user_vptmlp.png"
                 alt="user"
                 className="userPic"
               />
