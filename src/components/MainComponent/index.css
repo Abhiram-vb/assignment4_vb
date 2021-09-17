@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+  font-size: 14px;
+  font-family: monospace;
+}
+h1 {
+  font-weight: solid;
+  font-size: 30px;
+  color: #1565c0;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fff1e6, #f8f7ff, #ffeedd);
+}
+.unorderedList {
+  width: 100vw;
+}
+button {
+  background-color: #c2f784;
+  border-radius: 15px;
+  padding: 10px;
+  border-width: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.inputAndButton {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+}
+input {
+  border: 2px solid #1565c0;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  width: 500px;
+}
+input[type='text'] {
+  font-size: 17px;
+  font-family: monospace;
+}
+@media (max-width: 750px) {
+  input {
+    border: 2px solid #1565c0;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 120px;
+  }
+}
+@media (max-width: 500px, min-width : 750px) {
+  input {
+    border: 2px solid #1565c0;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 2000px;
+  }
+}
+
+.inputAndButton .selectnone {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  width: 70px;
+  height: 50px;
+  background: none;
+  border: 2px solid #1565c0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  background-color: #bbdefb;
+  font-family: monospace;
+}
+
+button:hover {
+  width: 100px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+  border: 2px solid transparent;
+  width: 50px;
+  border-left: 2px solid #1565c0;
+  border-bottom: 2px solid #1565c0;
+  animation: spin 2s 200ms forwards;
+}
+
+button:focus span {
+  color: transparent;
+}
+
+@keyframes spin {
+  80% {
+    border: 2px solid transparent;
+    border-left: 2px solid #1565c0;
+  }
+  100% {
+    transform: rotate(1080deg);
+    border: 2px solid #1565c0;
+  }
+}
+
+@keyframes check {
+  to {
+    fill: #932e3e;
+  }
+}
+
+@keyframes circle {
+  to {
+    border: 2px solid #932e3e;
+  }
+}

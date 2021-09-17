@@ -1,0 +1,76 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.allMessages {
+    margin-right: 25px;
+    overflow-y: hidden;
+    padding: 5px;
+    height: 75vh;
+    border: 2px solid #1565C0;
+    border-radius: 15px;
+    background-image: linear-gradient(to right,#90CAF9,#64B5F6,#42A5F5);
+  }
+  .agentMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-weight: 500;
+
+  }
+  .userMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000000;
+    font-weight: 500;
+  }
+  .imageAndMessage {
+    display: flex;
+    flex-direction: row;
+  }
+  .agent {
+    background-color: #0D47A1;
+    border-radius: 15px;
+    border-width: 0;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    max-width: 50vw;
+  }
+  .user {
+    background-color: #BBDEFB;
+    border-radius: 15px;
+    border-width: 0;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    max-width: 50vw;
+  }
+  .timeSince {
+    color: #000000;
+    font-weight: solid;
+  }
+  .agentPic {
+    height: 40px;
+    border-radius: 80px;
+    margin: 15px;
+  }
+  .userPic {
+    height: 40px;
+    border-radius: 80px;
+    margin: 15px;
+  }
+  
